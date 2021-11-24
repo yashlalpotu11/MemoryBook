@@ -11,6 +11,7 @@ require('./connection')
 //Middlewares
 app.use(cors());
 app.use(morgan("dev"));
+
 app.use(bodyParser.json({ limit: "10mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "10mb", extended: true }));
 app.use(express.json());
