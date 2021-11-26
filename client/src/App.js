@@ -7,6 +7,8 @@ import useStyle from './Style'
 import Form from './Components/Form/Form'
 import Posts from './Components/Posts/Posts'
 import getPosts from './Actions/GetPosts'
+import ThumbUpAltIcon from "@mui/icons-material/ThumbUpAlt";
+
 
 export default function App() {
 
@@ -25,13 +27,14 @@ export default function App() {
                 <AppBar position="static" className={classes.appBar}>
                     <Typography
                     className={classes.heading}
-                    variant="h3"
+                    variant="h4"
                     gutterBottom
                     component="div"
                     align="inherit"
                     >
                     MemoryBook
                     </Typography>
+                  
                 </AppBar>
                 <Grow in>
                     <Container>
@@ -39,9 +42,9 @@ export default function App() {
                         container
                         justify="space-between"
                         alignItems="stretch"
-                        spacing={3}
+                        spacing={1}
                         >
-                        <Grid item xs={12} sm={7}>
+                        <Grid item xs={12} sm={8}>
                             <Posts setSelectedId={setSelectedId} />
                         </Grid>
                         <Grid item xs={12} sm={4}>

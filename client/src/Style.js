@@ -8,9 +8,11 @@ export default makeStyles(() => ({
     flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
+    background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
   },
   heading: {
-    color: "rgba(0,183,255, 1)",
+    // color: "rgba(0,183,255, 1)",
+
     paddingTop: "10px",
   },
   image: {
