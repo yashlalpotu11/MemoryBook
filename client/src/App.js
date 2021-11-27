@@ -7,7 +7,8 @@ import useStyle from './Style'
 import Form from './Components/Form/Form'
 import Posts from './Components/Posts/Posts'
 import getPosts from './Actions/GetPosts'
-import ThumbUpAltIcon from "@mui/icons-material/ThumbUpAlt";
+// import ThumbUpAltIcon from "@mui/icons-material/ThumbUpAlt";
+
 
 
 export default function App() {
