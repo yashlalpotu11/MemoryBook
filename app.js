@@ -5,7 +5,7 @@ const cors = require("cors");
 
 
 const app = express();
-const port = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5000;
 require('./connection')
 
 //Middlewares
@@ -26,7 +26,7 @@ if(process.env.NODE_ENV === 'production'){
     });
 }
 
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}...`);
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}...`);
 });
 
