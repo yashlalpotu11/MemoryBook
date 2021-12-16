@@ -59,7 +59,7 @@ const Form = (props) => {
           className={`${classes.root} ${classes.form}`}
           onSubmit={submitHandler}
         >
-          <Typography variant="h6">
+          <Typography variant="h5">
             {props.selectedId ? "Editing" : "Creating"} a memory
           </Typography>
           <TextField
